@@ -25,7 +25,7 @@ This is the basic procedure:
 * Finally, the game is saved to the hard drive in the same directory as the script
 * Please note that time delays were added using "time" in order to not overload the servers.
 
-After tygem-fuseki-info-scraper.py has finished its job, you'll need to clean the file using game-cleaner.py. The reason for this is that the downloaded files are not able to be opened by most SGF readers. It would seem that the files did not convert very well for whatever reason. (This is a problem on their end, not mine.)
+After tygem-fuseki-info-scraper.py has finished its job, you'll need to clean the file using game-cleaner.py. The reason for this is that the downloaded files are not able to be opened by most SGF readers. It would seem that the files did not convert very well for whatever reason. (This is a problem with the SGF file found on the servers.)
 
 Hence, this script puts everything straight. You should be able to open the file using cgoban afterward.
 
